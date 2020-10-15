@@ -1,0 +1,305 @@
+    body {
+        cursor: auto;
+        padding: 0px;
+        margin: 0px;
+        background-color: lavenderblush;
+    }
+    /*Cabeçalho geral*/
+    
+    li {
+        list-style: none;
+    }
+    
+    a {
+        color: rgb(83, 19, 136);
+        text-decoration: none;
+    }
+    
+    .header {
+        display: grid;
+        grid-template-columns: 20px 150px 150px 150px 0px;
+        grid-template-rows: 90px;
+        grid-column-gap: 10px;
+        grid-row-gap: 0px;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        position: fixed;
+        top: 0px;
+        left: 20px;
+        right: 20px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: thistle;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        font-size: 18px;
+        font-family: "Arial black";
+        font-weight: bold;
+    }
+    
+    .marca {
+        margin-top: 5px;
+        border-radius: 10px;
+        align-self: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .produtos {
+        border-radius: 2px;
+        text-align: center;
+        align-self: center;
+    }
+    
+    .lojas {
+        border-radius: 2px;
+        text-align: center;
+        align-self: center;
+    }
+    
+    .contatos {
+        border-radius: 2px;
+        text-align: center;
+        align-self: center;
+    }
+    /* conteúdo página inicial*/
+    
+    h2 {
+        margin-top: 180px;
+        margin-left: 100px;
+        margin-right: 100px;
+        color: midnightblue;
+        font-family: "Arial Black";
+        font-size: 48px;
+        background-color: thistle;
+        letter-spacing: 1px;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 5px;
+    }
+    
+    p {
+        text-align: center;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    div {
+        text-align: center;
+    }
+    
+    hr {
+        border-bottom: 2px solid blueviolet;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    
+    #amostra img {
+        box-shadow: 0 4px 8px 0 rgba(89, 5, 114, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+    }
+    
+    #amostra div {
+        text-align: center;
+        width: 25%;
+    }
+    /*página de Lojas*/
+    
+    .lojasAdress {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    h3 {
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: RGBA(230, 230, 250, 0.50);
+        font-weight: bold;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: midnightblue;
+        text-align: center;
+        font-size: 30pt;
+        text-decoration: underline mediumpurple;
+    }
+    
+    p.lojasParag {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18pt;
+        font-family: "Calibri";
+        font-weight: bold;
+        background-color: RGBA(230, 230, 250, 0.50);
+    }
+    
+    .lojaSp {
+        background-image: url(https://i.pinimg.com/originals/9c/96/04/9c960468863c25afa06f951f8fd51e23.jpg);
+        width: 25%;
+        height: 25%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+    }
+    
+    .lojaRj {
+        background-image: url(https://i.pinimg.com/originals/9c/96/04/9c960468863c25afa06f951f8fd51e23.jpg);
+        width: 25%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+    }
+    
+    .lojaSc {
+        background-image: url(https://i.pinimg.com/originals/9c/96/04/9c960468863c25afa06f951f8fd51e23.jpg);
+        width: 25%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+    }
+    /* página de produtos*/
+    
+    #category {
+        margin-left: -60px;
+        text-align: left;
+        font-size: 20px;
+        background-color: thistle;
+        border-radius: 5px;
+        font-family: "Arial black";
+        text-decoration: none;
+    }
+    
+    li.listaProduto {
+        margin-left: -55px;
+        margin-right: 10px;
+        cursor: default;
+        background-color: lavender;
+        list-style-type: none;
+        font-family: "Calibri";
+        font-weight: 100;
+        font-size: 12pt;
+        text-align: left;
+    }
+    
+    .menuProdutos {
+        background-color: white;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 10px;
+        text-align: center;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: 200px 290px 290px 290px 290px;
+        grid-template-rows: 100px 100px 100px 20px;
+        grid-column-gap: 10px;
+        grid-row-gap: 200px;
+        align-content: space-between;
+        justify-content: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .estiloNome {
+        font-family: "Arial";
+        font-weight: bold;
+    }
+    
+    .estiloPrecoVelho {
+        font-family: "Arial";
+        text-decoration: line-through;
+    }
+    
+    .estiloPrecoNovo {
+        font-family: "Arial";
+        font-weight: bolder;
+        font-size: 14pt;
+        color: darkblue;
+    }
+    
+    img.Prods {
+        width: 200px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    
+    .box_produtos {
+        margin-top: 20px;
+        display: block;
+    }
+    /*contatos*/
+    
+    .grade {
+        font-size: 20px;
+        font-family: "Calibri";
+        font-weight: bold;
+        display: grid;
+        grid-template-columns: 230px 230px;
+        grid-template-rows: 40px 40px;
+        grid-column-gap: 200px;
+        grid-row-gap: 10px;
+        align-content: space-between;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    
+    .gradeDois {
+        background-image: url(https://e7.pngegg.com/pngimages/800/969/png-clipart-purple-and-blue-color-microsoft-powerpoint-desktop-slide-show-background-purple-template.png);
+        /*background-color: rgba(176, 224, 230, 0.5);*/
+        border-radius: 10px;
+        display: grid;
+        margin-left: 490px;
+        margin-right: 490px;
+        grid-template-columns: 110px 120px;
+        grid-template-rows: 40px 40px 40px 40px 40px;
+        grid-column-gap: 12px;
+        grid-row-gap: 10px;
+        align-items: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    #botao {
+        border: 0px;
+        border-radius: 5px;
+        background-color: plum;
+        font-family: "Helvetica";
+        font-weight: bold;
+        color: mediumvioletred;
+        box-shadow: 0 4px 8px 0 rgba(129, 53, 216, 0.2);
+    }
+    
+    h4 {
+        font-family: "Arial black";
+        color: midnightblue;
+        margin-left: 5px;
+        background-color: rgb(221, 161, 221, 0.5);
+    }
+    /*parte dos rodapés geral*/
+    
+    footer {
+        background-color: lavender;
+        margin-top: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+        border-radius: 5px;
+        font-size: 25px;
+        color: midnightblue;
+        text-align: center;
+        font-family: "Arial black";
+    }
+    
+    #formas {
+        background-color: powderblue;
+    }
+    
+    #rodape {
+        background-color: thistle;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 11pt;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
