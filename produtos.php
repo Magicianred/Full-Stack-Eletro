@@ -14,15 +14,15 @@
     <!--Menu-->
     <header>
 
-        <ul class="header">
-            <li>
-                <a href="index.html"><img class="marca" src="./img/logoeletro.png" width="100px" alt="Logo Full Stack Eletro" onmouseover="imgOn(this)" onmouseout="imgOff(this)"></a>
-            </li>
-            <li class="produtos" onmouseover="navOn(this)" onmouseout="navOff(this)"><a href="produtos.html">Produtos</a></li>
-            <li class="lojas" onmouseover="navOn(this)" onmouseout="navOff(this)"><a href="lojas.html">Nossas Lojas</a></li>
-            <li class="contatos" onmouseover="navOn(this)" onmouseout="navOff(this)"><a href="faleconosco.html">Fale Conosco</a></li>
+    <ul class="header">
+                <li>
+                    <a href="index.php"><img class="marca" src="./img/logoeletro.png" width="100px" alt="Logo Full Stack Eletro" onmouseover="imgOn(this)" onmouseout="imgOff(this)"></a>
+                </li>
+                <li class="produtos" onmouseover="navOn(this)" onmouseout="navOff(this)"><a href="produtos.php">Produtos</a></li>
+                <li class="lojas" onmouseover="navOn(this)" onmouseout="navOff(this)"><a href="lojas.php">Nossas Lojas</a></li>
 
-        </ul>
+                <li class="contatos" onmouseover="navOn(this)" onmouseout="navOff(this)"><a href="faleconosco.php">Fale Conosco</a></li>
+
 
     </header>
     <!--Fim Menu-->
