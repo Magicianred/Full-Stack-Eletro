@@ -21,6 +21,7 @@ if (!$conn) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Full Stack Eletro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Quicksand:wght@300;400;500;600;700&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./CSS/estilo.css">
     <script src="JavaScript/page.js"></script>
     <script src="JavaScript/menuvendas.js"></script>
