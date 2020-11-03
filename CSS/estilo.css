@@ -162,6 +162,36 @@
     }
     /* página de produtos*/
     
+    .menuCategorias {
+        height: 20vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        margin-left: 30px;
+        margin-right: 5px;
+        margin-bottom: 100px;
+        float: left;
+    }
+    
+    .menuProdutos {
+        height: 200vh;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: white;
+        border-radius: 10px;
+        text-align: center;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 20px;
+        align-content: space-between;
+        justify-content: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
     #category {
         margin-left: -60px;
         text-align: left;
@@ -184,24 +214,6 @@
         text-align: left;
     }
     
-    .menuProdutos {
-        background-color: white;
-        margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
-        border-radius: 10px;
-        text-align: center;
-        display: grid;
-        flex-wrap: wrap;
-        grid-template-columns: 200px 290px 290px 290px 290px;
-        grid-template-rows: 100px 100px 100px 20px;
-        grid-column-gap: 10px;
-        grid-row-gap: 200px;
-        align-content: space-between;
-        justify-content: center;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-    
     .estiloNome {
         font-family: "Arial";
         font-weight: bold;
@@ -220,43 +232,66 @@
     }
     
     img.Prods {
-        width: 200px;
-        margin-top: 2px;
+        align-self: center;
+        max-width: 100em;
+        margin-top: 5px;
         margin-bottom: 2px;
     }
     
     .box_produtos {
-        margin-top: 20px;
+        margin: 40px;
         display: block;
     }
     /*contatos*/
     
     .grade {
-        font-size: 20px;
-        font-family: "Calibri";
-        font-weight: bold;
-        display: grid;
-        grid-template-columns: 230px 230px;
-        grid-template-rows: 40px 40px;
-        grid-column-gap: 200px;
-        grid-row-gap: 10px;
-        align-content: space-between;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
-        margin-bottom: 50px;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .tele {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        border: solid 2px thistle;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    
+    .mailing {
+        margin-right: 10px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        padding: 10px;
+        border: solid 2px thistle;
+        border-radius: 5px;
+    }
+    
+    .container {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: right;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .texto {
+        width: 400px;
+        height: 200px;
     }
     
     .gradeDois {
-        background-image: url(https://e7.pngegg.com/pngimages/800/969/png-clipart-purple-and-blue-color-microsoft-powerpoint-desktop-slide-show-background-purple-template.png);
-        /*background-color: rgba(176, 224, 230, 0.5);*/
-        border-radius: 10px;
-        display: grid;
-        margin-left: 490px;
-        margin-right: 490px;
-        grid-template-columns: 110px 120px;
-        grid-template-rows: 40px 40px 40px 40px 40px;
-        grid-column-gap: 12px;
-        grid-row-gap: 10px;
-        align-items: center;
+        margin-top: 20px;
+        background-color: lavender;
+        border: 1px solid purple;
+        border-radius: 5px;
+        padding: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     

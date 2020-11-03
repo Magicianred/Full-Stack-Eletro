@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Full Stack Eletro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Quicksand:wght@300;400;500;600;700&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./CSS/estilo.css">
     <script src="JavaScript/page.js"></script>
 
@@ -23,15 +24,16 @@
 
 
         <section class="grade">
-            <div> <img src="./img/emailicon.jpg" width="40px"> contato@fullstackeletro.com
+            <div class="mailing"> <img src="./img/emailicon.jpg" width="40px"> contato@fullstackeletro.com
             </div>
 
 
-            <div><img src="./img/whapicon.png" width="40px">
-                <div>(21) 92323-6589</div>
+            <div class="tele"><img src="./img/whapicon.png" width="40px">(21) 92323-6589
+        </div>
+                
         </section>
 
-
+<div class="container">
         <form class="gradeDois">
             <h4>
                 Nome:
@@ -49,10 +51,11 @@
             <h4>
                 Mensagem:
             </h4>
-            <textarea style="width: 400px;"></textarea><br>
+            <textarea class="texto"></textarea><br>
             <input type="submit" id="botao" value="Enviar" onclick="sucessOn(this)" onmouseover="botaOn(this)" onmouseout="botaOff(this)">
 
         </form>
+    </div>
     </main>
     <br>
     <br>
