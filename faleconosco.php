@@ -1,3 +1,28 @@
+
+<?php 
+$servername = "127.0.0.1";
+$username = "root";
+$password = "";
+$database = "fullstackeletro";
+
+$conn = mysqli_connect($servername, $username, $password, $database);
+
+if (!$conn) {
+    die("A conexão falhou: ". mysqli_connect_error());
+}
+
+if(isset($_POST['nome']) && isset($_POST['msg']) && isset($_POST['email']) && isset($_POST['telefone'])){
+    $nome = $_POST['nome'];
+    $msg = $_POST['msg'];
+    $email = $_POST['email'];
+    $telefone = $_POST['telefone'];
+    
+    $sql = "insert into contato (nome, msg, email, telefone) values ('$nome','$msg', '$email', $telefone)";
+    $result = $conn->query($sql);
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -34,28 +59,24 @@
         </section>
 
 <div class="container">
-        <form class="gradeDois">
-            <h4>
-                Nome:
+        <form method="post" action="" class="gradeDois">
+            <h4>Nome:</h4> 
+            <input type="text" style="width: 400px;" name="nome"><br> 
+            <h4>E-mail:
             </h4>
-            <input type="text" style="width: 400px;">
-            <h4>
-                E-mail:
-            </h4>
-            <input type="mail" style="width: 400px;">
+            <input type="mail" style="width: 400px;" name="email">
             <h4>
                 Telefone:
             </h4>
-            <input type="number" style="width: 400px;">
+            <input type="number" style="width: 400px;" name="telefone">
 
-            <h4>
-                Mensagem:
-            </h4>
-            <textarea class="texto"></textarea><br>
-            <input type="submit" id="botao" value="Enviar" onclick="sucessOn(this)" onmouseover="botaOn(this)" onmouseout="botaOff(this)">
+           <h4> Mensagem: </h4>
+            <input type="text" style="width:400px; height:200px;" name="msg"><br>
+            <input type="submit" id="botao" value="Enviar">
+        </form></div>
 
-        </form>
-    </div>
+
+        
     </main>
     <br>
     <br>
