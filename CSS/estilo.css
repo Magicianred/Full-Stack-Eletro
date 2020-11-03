@@ -183,12 +183,12 @@
         text-align: center;
         display: grid;
         flex-wrap: wrap;
+        justify-content: space-between;
         grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
-        grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-column-gap: 10px;
-        grid-row-gap: 20px;
+        grid-row-gap: 10px;
         align-content: space-between;
-        justify-content: center;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
@@ -233,14 +233,14 @@
     
     img.Prods {
         align-self: center;
-        max-width: 100em;
+        width: 150px;
+        height: 150px;
         margin-top: 5px;
         margin-bottom: 2px;
     }
     
     .box_produtos {
-        margin: 40px;
-        display: block;
+        padding: 10px;
     }
     /*contatos*/
     
