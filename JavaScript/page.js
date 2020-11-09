@@ -19,11 +19,11 @@ function navOff(obj) {
 
 // página inicial
 let mOn = (obj) => {
-    obj.innerHTML = "Seja bem vindo(a)";
+    obj.innerHTML = "Olá, seja bem vindo(a)!";
 }
 
 let mOff = (obj) => {
-    obj.innerHTML = "Boas compras!";
+    obj.innerHTML = "Obrigado pela preferência";
 }
 let amostraOn = (obj) => {
     obj.style.width = "35%";
@@ -48,13 +48,6 @@ function prodsOff(obj) {
 
 // nossas lojas
 
-function shopOn(obj) {
-    obj.style.width = "26%";
-}
-
-function shopOff(obj) {
-    obj.style.width = "25%";
-}
 
 //fale conosco
 
