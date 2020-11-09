@@ -1,0 +1,66 @@
+body {
+    background-color: lavenderblush;
+}
+
+h2 {
+    background-color: thistle;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: midnightblue;
+    margin-top: 60px;
+}
+
+.lojas {
+    margin-top: 50px;
+    height: 40vh;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 4fr;
+    grid-gap: 10px;
+    flex-wrap: wrap;
+}
+
+h3 {
+    background-color: RGBA(230, 230, 250, 0.50);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: midnightblue;
+    text-align: center;
+    font-size: 30pt;
+    text-decoration: underline mediumpurple;
+}
+
+p.lojasParag {
+    font-size: 18pt;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background-color: RGBA(230, 230, 250, 0.50);
+}
+
+.lojaSp {
+    padding: 10px;
+    background-color: lavender;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.lojaRj {
+    padding: 10px;
+    background-color: lavender;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.lojaSc {
+    padding: 10px;
+    background-color: lavender;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}

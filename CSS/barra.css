@@ -1,0 +1,25 @@
+/*Estilo navbar e footer*/
+
+.nav {
+    background-color: thistle;
+    position: fixed;
+    top: -5px;
+    left: 0px;
+    right: 0px;
+    margin: 0px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formas {
+    background-color: powderblue;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer {
+    background-color: thistle;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}

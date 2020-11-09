@@ -1,0 +1,22 @@
+/*Estilo da página inicial */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lavenderblush;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: lavender;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    background-color: azure;
+    text-align: center;
+    border-radius: 10px;
+}

@@ -1,0 +1,85 @@
+    body {
+        cursor: auto;
+        padding: 0px;
+        margin: 0px;
+        background-color: lavenderblush;
+    }
+    /*contatos*/
+    
+    h2 {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        color: midnightblue;
+        margin-top: 60px;
+        background-color: thistle;
+    }
+    
+    .grade {
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .tele {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        border: solid 2px thistle;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    
+    .mailing {
+        margin-right: 10px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        padding: 10px;
+        border: solid 2px thistle;
+        border-radius: 5px;
+    }
+    
+    .container {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: right;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .texto {
+        width: 400px;
+        height: 200px;
+    }
+    
+    .gradeDois {
+        margin-top: 20px;
+        background-color: lavender;
+        border: 1px solid purple;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    #botao {
+        border: 0px;
+        border-radius: 5px;
+        background-color: plum;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        color: mediumvioletred;
+        box-shadow: 0 4px 8px 0 rgba(129, 53, 216, 0.2);
+    }
+    
+    h4 {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        color: midnightblue;
+        margin-left: 5px;
+        background-color: rgb(221, 161, 221, 0.5);
+    }
