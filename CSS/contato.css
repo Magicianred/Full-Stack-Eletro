@@ -2,16 +2,20 @@
         cursor: auto;
         padding: 0px;
         margin: 0px;
+        box-sizing: border-box;
         background-color: lavenderblush;
     }
-    /*contatos*/
+    
+    main {
+        height: 120vh;
+    }
     
     h2 {
         text-align: center;
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
         color: midnightblue;
-        margin-top: 60px;
+        margin-top: 100px;
         background-color: thistle;
     }
     
@@ -41,6 +45,7 @@
         border: solid 2px thistle;
         border-radius: 5px;
     }
+    /*formulário*/
     
     .container {
         height: 80vh;
@@ -74,12 +79,22 @@
         font-weight: bold;
         color: mediumvioletred;
         box-shadow: 0 4px 8px 0 rgba(129, 53, 216, 0.2);
+        justify-self: center;
     }
     
     h4 {
+        margin: 5px;
+        padding: 5px;
         font-family: 'Quicksand', sans-serif;
         font-weight: bold;
         color: midnightblue;
         margin-left: 5px;
         background-color: rgb(221, 161, 221, 0.5);
+        text-align: center;
+    }
+    
+    input {
+        border: 0.5px solid lightgrey;
+        border-radius: 5px;
+        margin: 5px;
     }
