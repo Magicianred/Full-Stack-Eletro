@@ -15,10 +15,13 @@
 
 <body>
            <!--Menu-->
-        <ul class="nav nav-fill">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.php"><img src="./img/marca.png" width="150px" alt="Logo Full Stack Eletro"></a>
-            </li>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+   
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar"><span class="navbar-toggler-icon"></span></button>
+
+    <div class="collapse navbar-collapse" id="collapseNavbar">
+        <ul class="nav nav-fill shadow p-2 mb-5">
+             <a class="navbar-brand" href="index.php"><img src="./img/marca.png" width="150px" alt="Logo Full Stack Eletro"></a>
             <li class="nav-item "> 
                 <a class="nav-link active text-primary" href="produtos.php">Produtos</a> 
             </li>
@@ -30,7 +33,9 @@
             </li>
 
 
-        </ul>  
+        </ul>
+    </div> 
+</nav>
 <!--Fim do Menu-->
 
 <!--Conteúdo-->
@@ -62,7 +67,7 @@
                 <img src="./img/formasdepagamento.png" alt="Formas de pagamento">
             </div>
             <hr>
-            <p>&copy; Recode Pro </p>
+            <p id="recode">&copy; Recode Pro </p>
         </div>
     </footer>
 

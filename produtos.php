@@ -33,18 +33,28 @@ if (!$conn) {
 
 <body>
     <!--Menu-->
-    <ul class="nav nav-fill">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.php"><img src="./img/marca.png" width="150px" alt="Logo Full Stack Eletro"></a>
-            </li>
-            <li class="nav-item "><a class="nav-link active text-primary" href="produtos.php">Produtos</a></li>
-            <li class="nav-item"><a class="nav-link active text-primary" href="lojas.php">Nossas Lojas</a></li>
-
-            <li class="nav-item"><a class="nav-link active text-primary" href="faleconosco.php">Fale Conosco</a></li>
-</div>
-
-        </ul>
-    
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+   
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar"><span class="navbar-toggler-icon"></span></button>
+  
+      <div class="collapse navbar-collapse" id="collapseNavbar">
+          <ul class="nav nav-fill shadow p-2 mb-5">
+               <a class="navbar-brand" href="index.php"><img src="./img/marca.png" width="150px" alt="Logo Full Stack Eletro"></a>
+              <li class="nav-item "> 
+                  <a class="nav-link active text-primary" href="produtos.php">Produtos</a> 
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active text-primary" href="lojas.php">Nossas Lojas</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active text-primary" href="faleconosco.php">Fale Conosco</a>
+              </li>
+  
+  
+          </ul>
+      </div> 
+  </nav>
+  <!--Fim do Menu-->
     
     <hr>
     <main>
@@ -124,7 +134,7 @@ if (!$conn) {
 
             <div><img src="./img/formasdepagamento.png" alt="Formas de pagamento"></div>
             <hr>
-            <p>&copy; Recode Pro </p>
+            <p id="recode">&copy; Recode Pro </p>
         </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

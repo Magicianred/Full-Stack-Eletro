@@ -40,18 +40,28 @@ if(isset($_POST['nome']) && isset($_POST['msg']) && isset($_POST['email']) && is
 
     <body>
            <!--Menu-->
-            <ul class="nav nav-fill">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.php"><img src="./img/marca.png" width="150px" alt="Logo Full Stack Eletro"></a>
-            </li>
-            <li class="nav-item "><a class="nav-link active text-primary" href="produtos.php">Produtos</a></li>
-            <li class="nav-item"><a class="nav-link active text-primary" href="lojas.php">Nossas Lojas</a></li>
-
-            <li class="nav-item"><a class="nav-link active text-primary" href="faleconosco.php">Fale Conosco</a></li>
-
-        </ul>
-    
-<!--Fim do Menu-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+   
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar"><span class="navbar-toggler-icon"></span></button>
+  
+      <div class="collapse navbar-collapse" id="collapseNavbar">
+          <ul class="nav nav-fill shadow p-2 mb-5">
+               <a class="navbar-brand" href="index.php"><img src="./img/marca.png" width="150px" alt="Logo Full Stack Eletro"></a>
+              <li class="nav-item "> 
+                  <a class="nav-link active text-primary" href="produtos.php">Produtos</a> 
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active text-primary" href="lojas.php">Nossas Lojas</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active text-primary" href="faleconosco.php">Fale Conosco</a>
+              </li>
+  
+  
+          </ul>
+      </div> 
+  </nav>
+  <!--Fim do Menu-->
     <main>
 
         <h2>Fale Conosco</h2>
@@ -70,30 +80,45 @@ if(isset($_POST['nome']) && isset($_POST['msg']) && isset($_POST['email']) && is
     </section>
 
 <!--Formulário de Mensagem-->
-    <div class="container">
-         
-        <form method="post" action="" class="gradeDois">
-            <h4>
-                Nome:
-            </h4> 
-            <input type="text" style="width: 400px;" name="nome"><br> 
-            <h4>
-                E-mail:
-            </h4>
-            <input type="mail" style="width: 400px;" name="email"><br>
-            <h4>
-                Telefone:
-            </h4>
-            <input type="number" style="width: 400px;" name="telefone"><br>
+ 
+<div class="container w-50 p-4 ">   
+    <form method="post" action="" >
 
-            <h4>
-                Mensagem:
-            </h4>
-             <input type="text" style="width:400px; height:200px;" name="msg"><br><br>
-             <input type="submit" id="botao" value="Enviar">
-        </form>
-    </div>
-       
+        <div class="form-group d-flex justify-content-center ">
+           <div> 
+               <label for="nome"> Nome:</label> 
+               <input type="text" class="form-control" id="nomeForm" aria-describedby="name" style="width: 400px;" name="nome" placeholder="Seu nome completo"><br> 
+           </div>
+        </div>
+
+        <div class="form-group d-flex justify-content-center">  
+            <div> 
+                <label for="email"> E-mail:</label>        
+                <input type="mail" class="form-control" id="emailForm" style="width: 400px;" aria-describedby="emailContato" placeholder="Seu email" name="email"><br>
+            </div>
+        </div>
+
+        <div class="form-group d-flex justify-content-center">
+            <div>
+                <label for="telefone"> Telefone:</label>   
+                <input type="number" class="form-control" id="telefoneForm" style="width: 400px;" aria-describedby="telefoneContato" placeholder="Seu telefone" name="telefone"><br>          
+            </div>
+        </div>
+        
+        <div class="form-group d-flex justify-content-center">
+           <div>
+               <label for="message"> Mensagem:</label>
+            
+               <input type="text" class="form-control" id="recado" aria-describedby="recado" placeholder="Sua mensagem..." style="width:400px; height:200px;" name="msg"><br><br>
+               <input type="submit"  class="btn btn-primary btn-md d-flex" value="Enviar">
+            </div>
+        </div>
+
+    </form>
+</div>
+
+ 
+     
     </main>
     
    
@@ -108,7 +133,7 @@ if(isset($_POST['nome']) && isset($_POST['msg']) && isset($_POST['email']) && is
                 <img src="./img/formasdepagamento.png" alt="Formas de pagamento">
             </div>
             <hr>
-            <p>&copy; Recode Pro </p>
+            <p id="recode">&copy; Recode Pro </p>
     </footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
